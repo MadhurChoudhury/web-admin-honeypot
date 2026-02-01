@@ -9,24 +9,28 @@ A lightweight web honeypot that mimics common admin portals (e.g., `/admin`, `/w
 - Credential hashing (no plaintext storage)
 - Analysis script that generates a markdown report + charts
 
+```md
 ## Run locally
+
 ```bash
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
 pip install flask pandas matplotlib
 python honeypot/app.py
-
 Open: http://localhost:8080/admin
 
-## Generate report
+Generate report
 python analysis.py
-
-
 Outputs in reports/:
-    summary.md
-    hits_over_time.png
-    CSV summaries
+
+summary.md
+
+hits_over_time.png
+
+CSV summaries
+
+
 
 ## Findings (Local Testing)
 During local testing, the honeypot captured simulated attack traffic including:
