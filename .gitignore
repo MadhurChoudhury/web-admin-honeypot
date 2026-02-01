@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Logs may contain real IPs once deployed
+logs/
+
+# Generated artifacts
+reports/*.png
+reports/*.csv
