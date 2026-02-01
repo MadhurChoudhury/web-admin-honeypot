@@ -20,8 +20,9 @@ pip install flask pandas matplotlib
 python honeypot/app.py
 Open: http://localhost:8080/admin
 
-Generate report
+#Generate report
 python analysis.py
+
 Outputs in reports/:
     summary.md
     hits_over_time.png
