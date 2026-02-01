@@ -35,3 +35,17 @@ During local testing, the honeypot captured simulated attack traffic including:
 - Path traversal attempts (`../../etc/passwd`)
 
 Once deployed to a public cloud VM, the honeypot is expected to receive unsolicited traffic from automated scanners and bots within hours.
+
+## Screenshots
+
+### Admin Honeypot Interface
+![Admin Portal](docs/screenshots/admin_page.png)
+
+### Structured Log Entries
+![Log Entries](docs/screenshots/log_entries.png)
+
+### Generated Summary Report
+![Summary Report](docs/screenshots/summary_report.png)
+
+### Traffic Over Time
+![Traffic Chart](docs/screenshots/traffic_chart.png)
